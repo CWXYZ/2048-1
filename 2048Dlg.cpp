@@ -130,6 +130,16 @@ BOOL CMy2048Dlg::OnInitDialog()
 	srand( (unsigned)time( NULL ) ); 
 	ClearData();
 
+	//set the font of the digit
+	CFont font;
+	font.CreatePointFont(200,_T("ËÎÌו"),NULL);
+	unsigned int x,idc = IDC_STATIC0;
+	for(x=0;x<16;x++)
+	{
+		GetDlgItem(idc)->SetFont(&font);
+		idc++;
+	}
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
