@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 2048 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/2048.pdb" /machine:I386 /out:"Release/2048.exe"  .\Release\2048.obj .\Release\2048Dlg.obj .\Release\StdAfx.obj .\Release\2048.res "
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+2048.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
